@@ -2,11 +2,11 @@ package main
 
 import (
     "fmt"
-    models "github.com/shimaro4/financial-simulator/internal"
+	"github.com/shimaro4/financial-simulator/family"
 )
 
 func main() {
-    family := models.Household{
+    family := family.Household{
 		Name: "Johnson",
 		NumPeople: 4,
 		State: "California",

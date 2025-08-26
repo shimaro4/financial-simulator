@@ -1,4 +1,4 @@
-package internal
+package family
 
 type Income struct {
 	Earner string
@@ -27,14 +27,4 @@ type Investment struct {
 	TotalInvested float64
 	Balance float64
 	ReturnRate float64
-}
-
-type Household struct {
-	Name string
-	NumPeople int
-	State string
-	Incomes []Income
-	Expense Expense
-	Savings Savings
-	Investment Investment
 }
